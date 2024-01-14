@@ -1,0 +1,3 @@
+C:/Users/jmech/Desktop/sampleCode/out/build/x64-Debug/CMakeFiles/sampleCode.dir
+C:/Users/jmech/Desktop/sampleCode/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/jmech/Desktop/sampleCode/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
