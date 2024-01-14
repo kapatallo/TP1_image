@@ -1,0 +1,10 @@
+^C:\USERS\JMECH\DESKTOP\SAMPLECODE\BUILD\CMAKEFILES\5899E9BB2739CB2C19CD483076F1DC60\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jmech/Desktop/sampleCode -BC:/Users/jmech/Desktop/sampleCode/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/jmech/Desktop/sampleCode/build/Project_Name.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
